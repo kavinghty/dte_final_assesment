@@ -1,47 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Rosmini College - Welcome</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rosmini College</title>
+
+
+    <!-- Link to styles.css and Bootstrap -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+
+
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="rosmini_logo.jpg" alt="Trulli" width="90" height="53">
-            <span>ROSMINI COLLEGE</span>
-        </div>
-        <div>
-            <a href="index.html">Home</a>
-            <a href="#">About</a>
-            <a href="Sports.html">Sports</a>
-            <a href="Staff.html">Staff</a>
-        
-        <div class="buttons">
-            <a href="Academic.html">ACADEMIC</a>
-            <a href="#">CONTACT</a>
-        </div>
-    </nav>
 
 
-    <h1>ROSMINI COLLEGE</h1>
-
-
-    <div class="container">
-        <div class="content">
-            <div class="text-box">
-                <p>Rosmini College offers a Catholic education to young men on Auckland’s North Shore, helping them to become well-rounded individuals that strive to reach their full academic potential. Students are encouraged to participate and excel in sporting and cultural opportunities, and their education is grounded in the philosophy of the school’s founder - to be young men of dignity, integrity, fairness, charity and justice.</p>
-            </div>
-            <div class="image-box">
-                <img src="rosmini_building.jpg" alt="Rosmini College Building">
-            </div>
-            <div class="text-box">
-                <p>Rosmini College is centred around good leadership, sound discipline, excellence in standards expected of all, and a focus on boys’ learning. Rosmini is one of Auckland’s leading achievers, with a proud history of academic and sporting prowess. Technology, music and art also flourish at Rosmini, and we aim to deliver boys a wide range of learning opportunities while maintaining a commitment to enhancing leadership and community service awareness.</p>
-            </div>
+<!-- Navbar -->
+<header class="nav_container">
+    <div class="logo_section">
+        <img src="rosmini_logo.jpg" alt="Rosmini Logo">
+        <div class="logo_text">
+            <h1>Rosmini College</h1>
+            <p>Faith - Excellence - Service</p>
         </div>
     </div>
+
+
+    <nav class="nav_links">
+        <a href="index.html" class="active">Home</a>
+        <a href="#">Academics</a>
+        <a href="sports.html">Sport</a>
+        <a href="staff.html">Staff</a>
+        <a href="#">News</a>
+        <a href="#">Community</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+
+<!-- Welcome Section -->
+<section class="intro">
+    <h2>Welcome to Rosmini College</h2>
+    <p>Building a future based on values, respect, and academic excellence. A place where young men grow to serve their community and succeed in life.</p>
+</section>
+
+
+<!-- Carousel Section -->
+<section class="carousel_section">
+    <div id="schoolCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#schoolCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#schoolCarousel" data-slide-to="1"></li>
+            <li data-target="#schoolCarousel" data-slide-to="2"></li>
+            <li data-target="#schoolCarousel" data-slide-to="3"></li>
+            <li data-target="#schoolCarousel" data-slide-to="4"></li>
+        </ol>
+
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="../dte_final_assesment/Student Assessment Resource/Caurosel/2022_08_04_group-001.jpg" alt="Learning together">
+            </div>
+            <div class="item">
+                <img src="../dte_final_assesment/Student Assessment Resource/Caurosel/2022_08_04_science-005.jpg" alt="Sports excellence">
+            </div>
+            <div class="item">
+                <img src="../dte_final_assesment/Student Assessment Resource/Caurosel/2023_11_21_167a8265-2.jpg" alt="Creative arts">
+            </div>
+            <div class="item">
+                <img src="../dte_final_assesment/Student Assessment Resource/Caurosel/2023_11_21_group-library-image-aircraft-build-high-school-students.jpg">
+            </div>
+            <div class="item">
+                <img src="../dte_final_assesment/Student Assessment Resource/Caurosel/2022_08_18_1580-1jpg.jpg">
+            </div>
+        </div>
+
+
+        <a class="left carousel-control" href="#schoolCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#schoolCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</section>
+
+
+<!-- School Values -->
+<section class="values_section">
+    <h2>Our Commitment</h2>
+    <ul>
+        <li>Respect for all cultures and traditions</li>
+        <li>Excellence in academic and sporting achievement</li>
+        <li>Service to the community</li>
+        <li>Faith and leadership</li>
+    </ul>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer_section">
+    <div class="footer_links">
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a><br>
+            <a href="#">Academics</a><br>
+            <a href="sports.html">Sport</a><br>
+            <a href="staff.html">Staff</a><br>
+        </div>
+
+
+        <div>
+            <h3>Contact Information</h3>
+            <p>36 Dominion Street, Takapuna, Auckland</p>
+            <p>Phone: +64 9 489 5417</p>
+            <p>Email: office@rosmini.school.nz</p>
+        </div>
+
+
+        <div>
+            <h3>Follow Us</h3>
+            <p>Facebook | Instagram | YouTube</p>
+        </div>
+    </div>
+</footer>
+
+
 </body>
 </html>
+
 
 

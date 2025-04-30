@@ -1,0 +1,185 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+  }
+  
+  
+  /* NAVBAR */
+  .nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002147;
+    padding: 10px 20px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+.logo_section {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo_section img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+.logo_text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+
+.logo_text p {
+    margin: 0;
+    font-size: 12px;
+}
+
+
+.nav_links {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+
+.nav_links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.nav_links a:hover {
+    text-decoration: underline;
+}
+  
+  
+  /* INTRO SECTION */
+  .intro {
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    background-color: #e3e3e3;
+  }
+  
+  
+  .intro h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #003366;
+  }
+  
+  
+  .intro p {
+    font-size: 16px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  
+  /* STAFF SECTION */
+  .staff_section {
+    padding: 40px 5%;
+    background-color: #fff;
+  }
+  
+  
+  .staff_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  
+  .staff_card {
+    width: 180px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  
+  .staff_card:hover {
+    transform: scale(1.03);
+  }
+  
+  
+  .staff_card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .staff_card p {
+    font-weight: bold;
+    color: #003366;
+  }
+  
+  
+  .staff_card span {
+    display: block;
+    font-weight: normal;
+    color: #555;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  
+  /* FOOTER */
+  .footer_section {
+    background-color: #003366;
+    color: white;
+    padding: 30px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  
+  .footer_section h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  
+  .footer_section a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  
+  .footer_section a:hover {
+    color: #ffcc00;
+  }
+  
+  
+  .footer_section p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  
+  
+  
